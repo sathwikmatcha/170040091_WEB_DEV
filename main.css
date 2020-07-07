@@ -1,0 +1,65 @@
+body{
+    background-color:#f2f4f7;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #424242;
+}
+.b1 a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: azure;
+}
+.b1 {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    
+    margin-left: -1px;
+    padding: 2px;
+    border: none;
+    background-color:  #424242;  
+}
+nav{
+    display: flex;
+    align-self: flex-end;
+}
+.b1 :hover{
+    animation-name: top_button;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+nav :hover{
+    width:120px;
+    background-color: #bae6b3;
+
+    animation-name: top_button;
+    animation-duration: 1s;
+    
+}
+@keyframes top_button {
+    0% {background-color: #424242;}
+    100% {
+        background-color: #bae6b3;
+        color: #424242;
+    }
+}
+
+@media screen and (max-width:500px){
+    header  {
+        align-self:center;
+    }
+    nav{
+        flex-direction: column;
+        align-self: stretch;
+    }
+    .b1{
+        position: relative;
+        right:180%;
+    }
+} 
