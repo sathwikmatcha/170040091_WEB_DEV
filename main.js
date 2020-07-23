@@ -7,6 +7,10 @@ let textIndex = 0;
 const delTime = 200;
 const typeTime = 100;
 const genTime = 2000;
+
+function openpdf() {
+    window.open("/resume_new_4.pdf");
+}
 function type() {
     if (!cursor.classList.contains("cursor-typing")) {
         cursor.classList.add("cursor-typing");

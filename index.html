@@ -9,38 +9,72 @@
 
 <body>
   <!--Making Profile-->
-  <header>
+  <header id="headw">
 
     <nav>
-      <button class="b1 active-button">HOME</button>
-      <button class="b1">ABOUT ME</button>
-      <button class="b1">PROJECTS</button>
-      <button class="b1">RESUME</button>
-      <button class="b1">CONTACT</button>
+      <a href="#d"><button class="b1">HOME</button></a>
+      <a href="#ame"><button class="b1">ABOUT ME</button></a>
+      <a href="#pro"><button class="b1">PROJECTS</button></a>
+      <a href="resume_new_4.pdf" target="_blank" style="text-decoration: none;"><button class="b1">RESUME</button></a>
+      <a href="contact.html" target="_blank" style="text-decoration: none;"><button class="b1">CONTACT</button></a>
     </nav>
 
   </header>
-  <div class="flex-container">
+  <div class="flex-container" id="d">
 
     <div class="des">
       <p id="text">I</p><span class="cursor">&nbsp;</span>
     </div>
   </div>
-  <div class="about-me">
+
+  <div class="about-me" id="ame">
     <div class="flex-container">
       <div class="section-about-me">
-        <p>I am Sathwik Matcha, 4th Year Under graduate from Civil Engineering IIT Bombay.</p>
+        <article>
+          <h3>About Me</h3>
+          <p>I am Sathwik Matcha, 4th Year Undergraduate in Civil Engineering from IIT Bombay. I am experienced in
+            making absolutely
+            beautiful websites along with graphic design Using Adobe Illustrator.My Professional Interests include in
+            diverse fields from Artificial Intelligence to as far as Energy.
+          </p>
+          <h3>Hobbies</h3>
+          <p>
+            Reading Books, Solving Sudoku and random puzzles,Playing Cricket.
+          </p>
+          <h3>Resolutions</h3>
+          <p>
+            <li>Start a blog related to Coding / Solutions of coding problems</li>
+            <li>Complete reading atleast 2 books by the end of the next month.</li>
+          </p>
+        </article>
       </div>
+
+    </div>
+  </div>
+  <div class="flex-container about-me" id="pro">
+    <div class="section-about-me ">
+      <article>
+        <h3>&nbsp;&nbsp;&nbsp; Projects</h3>
+        <p id="pr">
+        <div class="flex">
+          <button class="part-project"></button>
+        </div>
+        </p>
+      </article>
     </div>
   </div>
   <footer>
     <ul class="list-none">
-      <li class="img-scale"><img src="https://img.icons8.com/color/48/000000/linkedin.png" /></li>
-      <li class="img-scale"><img src="https://img.icons8.com/fluent/48/000000/twitter.png" /></li>
-      <li class="img-scale"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" /></li>
+      <li class="img-scale"><a href="https://www.linkedin.com/in/sathwik-matcha/"><img
+            src="https://img.icons8.com/color/48/000000/linkedin.png" /></a></li>
+      <li class="img-scale"><a href="https://twitter.com/iam_sathwik"><img
+            src="https://img.icons8.com/fluent/48/000000/twitter.png" /></a></li>
+      <li class="img-scale"><a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" /></a></li>
       <p class="section-divider">|</p>
-      <li class="img-scale"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="Github" /></li>
-      <li class="img-scale"><img src="HackerRank_Icon-1000px.png" alt="HackerRank" style="width: 48px; height: auto;">
+      <li class="img-scale"><a href="https://github.com/sathwikmatcha"><img
+            src="https://img.icons8.com/fluent/48/000000/github.png" alt="Github" /></a></li>
+      <li class="img-scale"><a href="https://www.hackerrank.com/sathwikmatcha"><img src="HackerRank_Icon-1000px.png"
+            alt="HackerRank" style="width: 48px; height: auto;"></a>
       </li>
     </ul>
   </footer>
