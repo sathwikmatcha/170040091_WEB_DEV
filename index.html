@@ -4,6 +4,7 @@
 <head>
   <title>Sathwik Matcha's Website</title>
   <link rel="stylesheet" href="main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -11,14 +12,39 @@
   <header>
 
     <nav>
-      <button class="b1"><a href="#">HOME</a></button>
-      <button class="b1"><a href="#">ABOUT ME</a></button>
-      <button class="b1"><a href="#">PROJECTS</a></button>
-      <button class="b1"><a href="#">RESUME</a></button>
-      <button class="b1"><a href="#">CONTACT</a></button>
+      <button class="b1 active-button">HOME</button>
+      <button class="b1">ABOUT ME</button>
+      <button class="b1">PROJECTS</button>
+      <button class="b1">RESUME</button>
+      <button class="b1">CONTACT</button>
     </nav>
-  </header>
 
+  </header>
+  <div class="flex-container">
+
+    <div class="des">
+      <p id="text">I</p><span class="cursor">&nbsp;</span>
+    </div>
+  </div>
+  <div class="about-me">
+    <div class="flex-container">
+      <div class="section-about-me">
+        <p>I am Sathwik Matcha, 4th Year Under graduate from Civil Engineering IIT Bombay.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <ul class="list-none">
+      <li class="img-scale"><img src="https://img.icons8.com/color/48/000000/linkedin.png" /></li>
+      <li class="img-scale"><img src="https://img.icons8.com/fluent/48/000000/twitter.png" /></li>
+      <li class="img-scale"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" /></li>
+      <p class="section-divider">|</p>
+      <li class="img-scale"><img src="https://img.icons8.com/fluent/48/000000/github.png" alt="Github" /></li>
+      <li class="img-scale"><img src="HackerRank_Icon-1000px.png" alt="HackerRank" style="width: 48px; height: auto;">
+      </li>
+    </ul>
+  </footer>
+  <script src="main.js"></script>
 </body>
 
 </html>
